@@ -1,0 +1,5 @@
+-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\CMSIS\Device\ST -I.\CMSIS\Documentation -I.\CMSIS\Include -I.\FWlib\inc -I.\USER -I.\ff9 
+-I d:\Keil\ARM\RV31\INC 
+-I d:\Keil\ARM\CMSIS\Include 
+-I d:\Keil\ARM\Inc\ST\STM32F2xx 
+-DUSE_STDPERIPH_DRIVER -DSTM32F2XX -o ".\output\adxl345.o" --omf_browse ".\output\adxl345.crf" --depend ".\output\adxl345.d" "USER\adxl345.c"

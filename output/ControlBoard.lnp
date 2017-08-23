@@ -1,0 +1,5 @@
+--cpu Cortex-M3 ".\output\main.o" ".\output\stm32f2xx_it.o" ".\output\adc.o" ".\output\systick.o" ".\output\usart.o" ".\output\fsmc_nand.o" ".\output\crc16.o" ".\output\response.o" ".\output\nand_wr.o" ".\output\led.o" ".\output\mmc_sd.o" ".\output\spi1.o" ".\output\megdriver.o" ".\output\m41t81.o" ".\output\dht11.o" ".\output\gpssource.o" ".\output\adxl345.o" ".\output\wireless.o" ".\output\iwdg.o" ".\output\gpstime.o" ".\output\misc.o" ".\output\stm32f2xx_adc.o" ".\output\stm32f2xx_dma.o" ".\output\stm32f2xx_usart.o" ".\output\stm32f2xx_rcc.o" ".\output\stm32f2xx_gpio.o" ".\output\stm32f2xx_fsmc.o" ".\output\stm32f2xx_spi.o" ".\output\stm32f2xx_syscfg.o" ".\output\stm32f2xx_exti.o" ".\output\stm32f2xx_tim.o" ".\output\stm32f2xx_i2c.o" ".\output\stm32f2xx_iwdg.o" ".\output\stm32f2xx_rtc.o" ".\output\system_stm32f2xx.o" ".\output\startup_stm32f2xx.o" ".\output\diskio.o" ".\output\ff.o" ".\output\ccsbcs.o" 
+--strict --scatter ".\output\ControlBoard.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\ControlBoard.map" -o .\output\ControlBoard.axf
